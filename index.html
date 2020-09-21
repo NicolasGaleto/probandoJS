@@ -10,13 +10,70 @@
     
 </body>
 <script>
-    const numero = 55226 ;
-    const string = 'texto 123 // && ' 
-    const string2 = 'string'
-    const booleano = true; // false 
-    const array 
+//     const numero = 55226 ;
+//     const string = 'texto 123 // && ' 
+//     const string2 = 'string'
+//     const booleano = true; // false 
+//     const array 
     
 
-console.log(numero)
+// console.log(numero)
+
+// = asignacion 
+// == comprobacion 
+// === comprobacion estricta 
+
+if (10 == 10) {
+    console.log("dio verdadero")
+} else {
+    console.log("dio negativo")
+}
+
+// ITERADORES
+
+const dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo']
+
+console.log(dias.length, '<-----')
+
+for(let i = 0; i < dias.length; i++) {
+    // if (i=7) console.log "ya termino el bucle"
+
+    console.log(dias[ i ])
+}
+
+// let numerowhile = 10 
+
+// while (numerowhile < 15 ) {
+//     console.log(numerowhile)
+//     numerowhile ++ 
+// }
+
+
+//  FUNCIONES 
+
+function obteneralumno( argumento, argumento2 ) {
+    console.log(argumento.nombre)
+    if (argumento2) {
+        console.log(argumento2.nombre)
+    }
+}
+
+const juan = {
+    nombre: "juan"
+    nota: 10
+    cuota: "adeuda"
+}
+
+const ana = {
+    nombre: "ana"
+    nota: 10
+    cuota: "adeuda"
+}
+
+obteneralumno (juan, ana)
+obteneralumno (ana)
+
+
+
 </script>
 </html>
